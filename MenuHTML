@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BAR RESTAURANTE MADRID</title>
+</head>
+<body>
+    <h1>MENU DEL DIA</h1>
+        <div class="seccion">
+            <pre><h2><strong> Primer plato</strong></h2></pre>
+                <ul>
+                    <li>Croquetas de Cocido madrileño</li>
+                    <li>Ensalada</li>
+                    <li>Sopa de Cocido</li>
+                </ul>
+                <hr>
+                <hr>
+        </div>   
+        <div class="seccion">
+            <pre><h2><strong> Segundo plato</strong></h2></pre>
+                <ul>
+                    <li>Cocido madrileño</li>
+                    <li>Sopas de ajo</li>
+                    <li>Tomahawk 1 kg <em>(Solo para valientes)</em></li>
+                </ul>
+                <hr>
+                <hr>
+        </div>   
+        <div class="seccion">
+            <pre><h2><strong> Postre</strong></h2></pre>
+                <ul>
+                    <li>Brownie con Helado</li>
+                    <li>Cheesecake</li>
+                    <li>Flan</li>
+                </ul>
+                <hr>
+                <hr>
+        </div>   
+        <div class="seccion extra">
+            <h4><em><strong>*Las bebidas no van incluidas en el menu, puede elegir entre postre y cafe</h4>
+        </div>
+</body>
+</html>
