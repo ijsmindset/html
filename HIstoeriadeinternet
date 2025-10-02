@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Historia y evolución de Internet</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f4f4f4; }
+    header { background: #333; color: white; padding: 10px 20px; }
+    nav a { color: white; margin-right: 15px; text-decoration: none; }
+    section { padding: 20px; }
+    img { max-width: 100%; height: auto; }
+    .resaltado { background-color: yellow; }
+  </style>
+</head>
+<body>
+
+  <!-- Menú de navegación -->
+  <header>
+    <nav>
+      <a href="#inicio">Inicio</a>
+      <a href="#historia">Historia</a>
+      <a href="#evolucion">Evolución</a>
+      <a href="#enlaces">Enlaces</a>
+    </nav>
+  </header>
+
+  <!-- Sección de inicio -->
+  <section id="inicio">
+    <h1><strong>Historia y evolución de Internet</strong></h1>
+    <p><em>Internet</em> ha transformado el mundo desde sus orígenes militares hasta convertirse en una red global de información.</p>
+    <p><mark>Este sitio web te guiará por los momentos clave de su desarrollo.</mark></p>
+  </section>
+
+  <!-- Sección de historia -->
+  <section id="historia">
+    <h2>Historia de Internet</h2>
+    <p>Todo comenzó en los años 60 con el proyecto <i>ARPANET</i>, desarrollado por el Departamento de Defensa de EE.UU.</p>
+    <p>En 1983 se adoptó el protocolo <b>TCP/IP</b>, base de la comunicación actual.</p>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/b/bf/Arpanet_logical_map%2C_march_1977.png" alt="Mapa de ARPANET" title="Mapa lógico de ARPANET" width="600">
+    <!-- Imagen histórica de ARPANET -->
+  </section>
+
+  <!-- Sección de evolución -->
+  <section id="evolucion">
+    <h2>Evolución de Internet</h2>
+    <p>Desde los años 90, Internet ha crecido exponencialmente. Hoy usamos <span class="resaltado">redes sociales</span>, <span class="resaltado">streaming</span> y <span class="resaltado">servicios en la nube</span>.</p>
+
+    <h3>Conceptos clave:</h3>
+    <ul>
+      <li>World Wide Web</li>
+      <li>HTML y CSS</li>
+      <li>Protocolos TCP/IP</li>
+      <li>IPv4 y <s>IPv5</s> <sub>(cancelado)</sub> → <sup>IPv6</sup></li>
+    </ul>
+
+    <h3>Momentos destacados:</h3>
+    <ol>
+      <li>1969: Nace ARPANET</li>
+      <li>1983: TCP/IP se convierte en estándar</li>
+      <li>1991: Se lanza la World Wide Web</li>
+      <li>2004: Surge Facebook</li>
+      <li>2010: Explosión del móvil y apps</li>
+    </ol>
+  </section>
+
+  <!-- Sección de enlaces -->
+  <section id="enlaces">
+    <h2>Enlaces para ampliar información</h2>
+    <dl>
+      <dt><strong>Wikipedia - Historia de Internet</strong></dt>
+      <dd><a href="https://es.wikipedia.org/wiki/Historia_de_Internet" target="_blank">Ver artículo</a></dd>
+
+      <dt><strong>Documental: Cómo nació Internet</strong></dt>
+      <dd><a href="https://www.youtube.com/watch?v=9hIQjrMHTv4" target="_blank">Ver en YouTube</a></dd>
+    </dl>
+  </section>
+
+  <!-- Comentario oculto -->
+  <!-- Esta página fue creada por Iván para el módulo de Lenguaje de Marcas -->
+
+</body>
+</html>
+
