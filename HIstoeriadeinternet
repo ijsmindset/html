@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Historia y evolución de Internet</title>
   <style>
-    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f4f4f4; }
+    body { font-family: Calibri, sans-serif; margin: 0; padding: 0; background: #f4f4f4; }
     header { background: #333; color: white; padding: 10px 20px; }
     nav a { color: white; margin-right: 15px; text-decoration: none; }
     section { padding: 20px; }
@@ -25,14 +25,14 @@
     </nav>
   </header>
 
-  <!-- Sección de inicio -->
+  <!--  introduccion -->
   <section id="inicio">
     <h1><strong>Historia y evolución de Internet</strong></h1>
     <p><em>Internet</em> ha transformado el mundo desde sus orígenes militares hasta convertirse en una red global de información.</p>
     <p><mark>Este sitio web te guiará por los momentos clave de su desarrollo.</mark></p>
   </section>
 
-  <!-- Sección de historia -->
+  <!-- historia -->
   <section id="historia">
     <h2>Historia de Internet</h2>
     <p>Todo comenzó en los años 60 con el proyecto <i>ARPANET</i>, desarrollado por el Departamento de Defensa de EE.UU.</p>
@@ -41,7 +41,7 @@
     <!-- Imagen histórica de ARPANET -->
   </section>
 
-  <!-- Sección de evolución -->
+  <!-- evolución -->
   <section id="evolucion">
     <h2>Evolución de Internet</h2>
     <p>Desde los años 90, Internet ha crecido exponencialmente. Hoy usamos <span class="resaltado">redes sociales</span>, <span class="resaltado">streaming</span> y <span class="resaltado">servicios en la nube</span>.</p>
@@ -64,7 +64,7 @@
     </ol>
   </section>
 
-  <!-- Sección de enlaces -->
+  <!-- enlaces -->
   <section id="enlaces">
     <h2>Enlaces para ampliar información</h2>
     <dl>
