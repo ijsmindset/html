@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae</title>
+</head>
+<body>
+    <!-- Nombre -->
+     <hr>
+     <hr>
+     <div>
+        <pre><h1>            CURRICULUM VITAE</h1></pre>
+          <pre><h2>juan que siempre hay uno<h2></pre>
+     </div>
+     <hr>
+     <hr>
+
+     <!-- Datos personales -->
+      <div>
+        <pre><h2>Datos personales (fake)</h2></pre>
+        <pre><h4>      Direccion: AV. pepe luis,3 28007 Madrid</h4></pre>
+        <pre><h4>      TLF 676868778</h4></pre>
+        <pre><h4>      Correo electronico pepeluis@pruebas.com</h4></pre>
+      </div>
+      <hr>
+      
+      <!-- Estudios -->
+       <div>
+          <pre><h2>Estudios</h2></pre>
+          <pre><h4>      Grado informatica</h4></pre>
+          <pre><h4>      bachillerato</h4></pre>
+          <pre><h4>      autodidacta networks and OSINT</h4></pre>
+       </div>
+        <!-- Idiomas -->
+       <div>
+          <pre><h2>Idiomas</h2></pre>
+          <pre><h4>      Español</h4></pre>
+          <pre><h4>      Ingles </h4></pre>
+       </div>
+        <!-- Experiencia -->
+       <div>
+          <pre><h2>Experiencia</h2></pre>
+          <pre><h4>      tencico software hardware</h4></pre>
+          <pre><h4>      tecnico de reparacion de pc y mobiles</h4></pre>
+          <pre><h4>      auditor junior OSINT</h4></pre>
+       </div>
+        <!-- Otros -->
+       <div>
+          <pre><h2>Otros</h2></pre>
+          <pre><h4>     permiso de circulacion y otros</h4></pre>
+          
+       </div>
+</body>
+</html>
