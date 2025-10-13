@@ -1,0 +1,62 @@
+<!DOCTYPE>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CurriculumForm</title>
+        
+    </head>
+    <body style="padding: 20px; background-color: rgb(224, 224, 224);">
+        
+        <form action="CV" method="post" enctype="multipart/form-data">
+            <header>
+                <h1>Curriculum Vitae</h1>
+            </header>
+            <fieldset id="top" style="background-color: rgb(243, 243, 243);">
+                <legend><h3><b>Datos Personales</b></h3></legend>
+                <label for="fecha"><b>Fecha de nacimiento:</b></label><br>
+                    <input type="date" name="fecha" required><br><br>
+                <label for="nombre"><b>Nombre:</b></label>
+                    <input type="text" name="nombre" placeholder="Apellidos, nombre" required><br><br>
+                <label for="password"><b>Password:</b></label>
+                    <input type="password" name="password" required><br><br>
+                <label for="dni"><b>DNI:</b></label>
+                    <input type="text" name="dni" pattern="[0-9][A-Za-z]" title="Ejemplo: 12345678-A" required>
+                <p><b>Sexo:</b></p>
+                <label for="hombre"><b>Hombre</b></label>
+                    <input type="radio" id="hombre" name="sexo" value="hombre" required>
+                <label for="mujer"><b>Mujer</b></label>
+                    <input type="radio" id="mujer" name="sexo" value="mujer"><br><br>
+                <label for="foto"><b>Subir foto:</b></label><br>
+                    <input type="file" id="foto" name="foto" accept="image/* required">
+            </fieldset>
+            <fieldset id="medium" style="background-color: rgb(243, 243, 243);">
+                <legend><h3><b>Datos de Habilidades</b></h3></legend>
+                <p><b>Idiomas:</b></p>
+                <label for="Spanish"><b>Spanish</b></label>
+                    <input type="checkbox" id="spanish" name="spanish" value="spanish"><br>
+                <label for="English"><b>English</b></label>
+                    <input type="checkbox" id="english" name="english" value="english"><br>
+                <label for="frances"><b>Frances</b></label>
+                    <input type="checkbox" id="frances" name="frances" value="frances"><br><br>
+                <p><b>Elige el nivel del 1 al 10:</b></p>
+                <label for="html"><b>HTML:</b></label>
+                    <input type="range" id="html" name="html" min="1" max="10" value="1" step="1"><br>
+                <label for="css"><b>CSS:</b></label>
+                    <input type="range" id="css" name="css" min="1" max="10" value="1" step="1"><br>
+                <label for="js"><b>JAVASCRIPT:</b></label>
+                    <input type="range" id="js" name="js" min="1" max="10" value="1" step="1"><br>
+            </fieldset>
+            <fieldset id="down" style="background-color: rgb(243, 243, 243);">
+                <legend><h3><b>Otros datos</b></h3></legend>
+                <label for="personas"><b>Personas a cargo (máximo 10):</b></label>
+                    <input type="number" id="personas" name="personas" min="0" max="10" required><br><br>
+                <label for="comentario"><b>Datos adicionales:</b></label><br>
+                    <textarea id="texto" name="texto" rows="5" cols="50" placeholder="Escribe aquí"></textarea><br>
+
+
+            </fieldset>
+            <button type="submit">Enviar</button> 
+        </form>
+    </body>
+    </html>
