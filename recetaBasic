@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recetas</title>
+     <style>
+      body{
+        padding-left: 20px;
+      }
+    </style>
+</head>
+<body>
+    
+    <header>
+        <h1>Recetas de belgica</h1>
+        <p>Descubre las mejores recetas belgas con detalles unicos e informacion adicional</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="https://www.recetags.com/receta/detalle/myzcgm_E/le-miserable-pastel-belga/">Plato Principal</a></li>
+            <li><a href="https://www.blogexquisit.es/le-miserable-pastel-belga/">Receta</a></li>
+            <li><a href="https://cookpad.com/es/recetas/24968757?ref=search&search_term=comida+belga">Gofres + receta</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="bodytop">
+            <h2><mark>Le Miserable, pastel belga</h2></mark></h2>
+            <br><br>
+            <p>Pastel<br>Le miserable: un pastel de almendras y crema de mantequilla.</p>
+            <hr>
+        </section>
+        <section id="bodyhalf">
+           <h4>Caracteristicas</h4>
+           <p>este pastel surgio por error como muchas otras deliciosas recetas. Es un bizcocho de almendras relleno de crema de mantequilla perfecto para quienes aman los postres intensos.
+           </p> 
+           <h3>Ingredientes</h3>
+               <ul>
+                    <li>4 claras de huevo.</li>
+                    <li>250 gr. de almendra molida.</li>
+                    <li>14gr. de azucar.</li>
+                    <li>25 gr. de harina</li>
+               </ul>
+        </section>
+        <section id="bodyfooter">
+            <h3>Elaboracion</h3>
+                <ol>
+                    <li>Montar las claras a punto de nieve con el azucar, batimos la yema y se mezcla con cuidado</li>
+                    <li>Añadir harina de almendra tamizada con la harina comun poco a poco</li>
+                    <li>Extender la masa en u na bandeja de horno hasta formar una capa cuadrada</li><hr>
+                </ol>
+        </section>
+    </main>
+    
+</body>
+</html>
